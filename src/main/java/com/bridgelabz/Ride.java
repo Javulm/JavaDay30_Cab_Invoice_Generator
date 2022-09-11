@@ -1,12 +1,21 @@
 package com.bridgelabz;
 
 public class Ride {
+    public enum RideType{
+        NORMAL, PREMIUM;
+    }
     private double distance;
     private double time;
+    private RideType rideType;
 
-    public Ride(double distance, double time) {
+    public Ride(double distance, double time, RideType rideType) {
+        this.rideType = rideType;
         this.distance = distance;
         this.time = time;
+    }
+
+    public RideType getRideType() {
+        return rideType;
     }
 
     public double getDistance() {

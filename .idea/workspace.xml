@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9592c26-9a8e-46b2-b264-64f606a2eb26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/RideRepository.java" afterDir="false" />
+    <list default="true" id="f9592c26-9a8e-46b2-b264-64f606a2eb26" name="Changes" comment="Added: Cab invoice generator by User id.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,20 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CabInvoiceGeneratorTest.giveUserIdShouldReturnInvoice">
+  <component name="RunManager" selected="JUnit.CabInvoiceGeneratorTest.givenMultipleRidesWhenPremiumShouldReturnTotalFare">
+    <configuration name="CabInvoiceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceGenerator" />
+      <module name="cabinvoicegennerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CabInvoiceGeneratorTest.giveMultipleRideShouldReturnInvoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cabinvoicegennerator" />
       <extension name="coverage">
@@ -101,8 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CabInvoiceGeneratorTest.givenMultipleRidesWhenPremiumShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cabinvoicegennerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="givenMultipleRidesWhenPremiumShouldReturnTotalFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CabInvoiceGeneratorTest.givenMultipleRidesWhenPremiumShouldReturnTotalFare" />
+        <item itemvalue="Application.CabInvoiceGenerator" />
         <item itemvalue="JUnit.CabInvoiceGeneratorTest.giveUserIdShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceGeneratorTest.giveMultipleRideShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceGeneratorTest.givenMultipleRideShouldReturnAggregateFare" />
@@ -118,6 +143,21 @@
       <option name="presentableId" value="Default" />
       <updated>1662777639104</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added: Cab invoice generator by User id.">
+      <created>1662878536886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662878536886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added: Cab invoice generator by User id.">
+      <created>1662878549756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662878549756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,5 +170,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added: Cab invoice generator by User id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Cab invoice generator by User id." />
   </component>
 </project>
